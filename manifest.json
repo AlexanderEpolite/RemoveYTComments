@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "RemoveYTComments",
+    "version": "1.0.0",
+    "description": "Removes YouTube comments on YouTube.com",
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["index.js"]
+        }
+    ]
+}
